@@ -87,12 +87,6 @@ img:last-of-type {
     background: 50% 50% / cover;
 }
 
-.header h2 {
-    text-align: center;
-    font-size: 175%;
-    color: #fff;
-}
-
 #title {
     background-image: url("https://media1.giphy.com/media/PELUHM8x5UYvu/giphy.gif");
     z-index: 2;
@@ -124,4 +118,23 @@ img:last-of-type {
 
 #slide4 {
     background: black;
+}
+
+#slide4 h2 {
+    text-align: center;
+    font-size: 175%;
+    /* font-size: 5em; */
+    color: white;
+    text-transform: uppercase;
+}
+
+span {
+    border-right: .05em solid;
+    animation: caret 1s steps(1) infinite;
+}
+
+@keyframes caret {
+    50% {
+        border-color: transparent;
+    }
 }
