@@ -38,6 +38,10 @@ p {
     transform-style: inherit;
 }
 
+a {
+    text-decoration: none;
+}
+
 svg {
     width: 14%;
 }
