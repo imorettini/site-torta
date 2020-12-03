@@ -38,6 +38,15 @@ p {
     transform-style: inherit;
 }
 
+svg {
+    width: 14%;
+}
+
+svg:hover {
+    width: 16%;
+    fill: white;
+}
+
 img {
     position: absolute;
     top: 50%;
@@ -56,7 +65,7 @@ img:last-of-type {
 }
 
 .slide:before {
-    content: "";
+    /* content: ""; */
     position: absolute;
     top: 0;
     bottom: 0;
@@ -104,16 +113,18 @@ img:last-of-type {
 #slide1:before {
     background-image: url("/imagens/may_01.jpg");
     transform: translateZ(-1px) scale(2);
+    content: "";
 }
 
 #slide2 {
-    background-image: url("https://i.pinimg.com/originals/4d/88/74/4d887462c9436e314dc0e63ed775d02f.gif");
+    background-image: url("https://media0.giphy.com/media/RMTRtPFla1w7OjdvLl/source.gif");
     z-index: 2;
 }
 
 #slide3:before {
     background-image: url("https://media0.giphy.com/media/Okhyf1Y2hwTusT3SbG/giphy.gif");
     transform: translateZ(-1px) scale(2);
+    content: "";
 }
 
 #slide4 {
